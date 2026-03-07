@@ -7,5 +7,5 @@ RUN pip install --no-cache-dir -r requirements-frontend.txt
 
 COPY frontend/ ./frontend/
 
-EXPOSE 7860
+EXPOSE 8080
 CMD ["python", "frontend/gradio_app.py"]
