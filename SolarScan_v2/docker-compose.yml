@@ -23,7 +23,7 @@ services:
       dockerfile: Dockerfile.gradio
     container_name: solarscan_frontend
     ports:
-      - "7860:7860"
+      - "8080:8080"
     environment:
       - API_URL=http://api:8000/predict
     depends_on:
