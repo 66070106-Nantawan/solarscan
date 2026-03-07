@@ -5,7 +5,7 @@ venv/
 .venv/
 
 # Model weights (ใหญ่เกินไป)
-model/weights/*.pt
+
 !model/weights/.gitkeep
 
 # Raw data

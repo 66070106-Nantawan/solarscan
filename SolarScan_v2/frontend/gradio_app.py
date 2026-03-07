@@ -42,7 +42,7 @@ def classify_solar(image):
         return f"❌ Error: {str(e)}", 0.0, 0.0
 
 # ── Gradio UI ──
-with gr.Blocks(theme=gr.themes.Soft(), title="SolarScan") as demo:
+with gr.Blocks(title="SolarScan") as demo:
 
     gr.Markdown("""
     # 🛰️ SolarScan
@@ -87,4 +87,4 @@ with gr.Blocks(theme=gr.themes.Soft(), title="SolarScan") as demo:
     """)
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=False, show_error=True)
