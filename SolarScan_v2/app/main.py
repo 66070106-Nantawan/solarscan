@@ -32,7 +32,7 @@ def load_model():
         nn.Dropout(0.3),
         nn.Linear(256, 2)
     )
-    model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
+    model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE, weights_only=False))
     model.eval()
     return model.to(DEVICE)
 
