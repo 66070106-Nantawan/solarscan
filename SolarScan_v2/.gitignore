@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Model weights (ใหญ่เกินไป)
+model/weights/*.pt
+!model/weights/.gitkeep
+
+# Raw data
+data/raw/
+data/processed/
+
+# MLflow
+mlflow_tracking/
+
+# Jupyter
+.ipynb_checkpoints/
+
+.DS_Store

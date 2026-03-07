@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/490287008340473987/4b90ae5537c54f3280c83ac71008aa0d/artifacts
+end_time: 1772873669171
+entry_point_name: ''
+experiment_id: '490287008340473987'
+lifecycle_stage: active
+run_id: 4b90ae5537c54f3280c83ac71008aa0d
+run_name: resnet50_20260307_1553
+run_uuid: 4b90ae5537c54f3280c83ac71008aa0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772873621104
+status: 4
+tags: []
+user_id: sunny
