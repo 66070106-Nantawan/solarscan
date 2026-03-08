@@ -17,8 +17,8 @@ docker compose up
 
 | Service | URL |
 |---|---|
-| 🎨 Gradio UI | http://localhost:7860 |
-| ⚡ API Docs | http://localhost:8080/docs |
+| 🎨 Gradio UI | http://localhost:8080 |
+| ⚡ API Docs | http://localhost:8000/docs |
 | 📊 MLflow | http://localhost:5000 |
 
 ---
