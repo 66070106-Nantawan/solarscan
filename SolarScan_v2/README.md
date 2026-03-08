@@ -8,8 +8,10 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/solarscan.git
-cd solarscan
+# ติดตั้ง Git LFS ก่อน clone
+git lfs install
+git clone https://github.com/66070106-Nantawan/solarscan.git
+cd solarscan/SolarScan_v2
 docker compose up
 ```
 
